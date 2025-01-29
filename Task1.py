@@ -16,7 +16,7 @@ with st.form("ajouter_tache"):
     statut = st.selectbox("Statut", ["À faire", "En cours", "Terminé"])
     responsable = st.text_input("Responsable", "")
     date_debut = st.date_input("Date de début")
-    date_echeance = st.date_input("Date d'échéance")
+    date_echeance = st.date_input("Date échéance")
     progres = st.slider("Progrès (%)", 0, 100, 0)
     commentaires = st.text_area("Commentaires", "")
     submit = st.form_submit_button("Ajouter la Tâche")
